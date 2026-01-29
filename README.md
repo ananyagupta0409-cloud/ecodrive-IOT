@@ -31,3 +31,35 @@ The system follows a classic three-layer IoT architecture:
 
 ### Data Flow
 
+Sensor Data Acquisition  
+(MQ-135 Gas Sensor, DHT22)  
+↓  
+ESP32 Processing  
+(sensor reading + emission score computation)  
+↓  
+Wi-Fi Data Transmission  
+↓  
+Firebase Realtime Database  
+↓  
+Flutter Mobile App & IoT Dashboard  
+↓  
+User Monitoring & Alerts
+
+
+## Key Features
+- Real-time emission monitoring
+- Emission score calculation
+- Cloud storage & synchronization
+- Historical data tracking
+- Dashboard visualization
+- Alert generation
+
+  ## Tech Stack
+- **Hardware:** ESP32, MQ-135, DHT22
+- **Embedded Programming:** Arduino / C++
+- **Cloud:** Firebase Realtime Database
+- **Mobile App:** Flutter
+- **Dashboard:** Arduino IoT Cloud
+- **Communication:** Wi-Fi, JSON payloads
+
+
